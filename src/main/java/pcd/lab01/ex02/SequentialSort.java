@@ -31,7 +31,7 @@ public class SequentialSort {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		for(int i=0;i<v.length;i++){
 			System.out.println("Questo è l'"+i+"-esimo numero: "+v[i]);
 		}
@@ -47,7 +47,7 @@ public class SequentialSort {
 		Random gen = new Random(System.currentTimeMillis());
 		var v = new int[n];
 		for (int i = 0; i < v.length; i++) {
-			v[i] = gen.nextInt(25000);
+			v[i] = gen.nextInt();
 		}
 		return v;
 	}

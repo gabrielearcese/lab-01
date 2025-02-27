@@ -37,7 +37,7 @@ public class SequentialSort {
 		}
 
 		long t1 = System.nanoTime();
-		log("Done from main. Time elapsed: " + ((t1 - t0) / 1000000) + " ms");
+		log("Done from ThreadMain. Time elapsed: " + ((t1 - t0) / 1000000) + " ms");
 		
 		// dumpArray(v);
 	}
